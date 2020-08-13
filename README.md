@@ -3,6 +3,8 @@ This includes tips in HPCC
 s -
 #########dO WE NEED TO BE CLEARER, THIEN?
 fin +expHPCC Basic
+
+###### How about this?
 1/ cd /mnt/home/lethien1/main/tutorial (set directory)
 Even faster: 
 cd $HOME/main/tutorial ($Home replace /mnt/home/lethien1/)
@@ -161,3 +163,4 @@ CTRL C for terminating R
 7/ Rscript HpccTried
 .R 100 100 4(Check code)
 
+#######May be renumerate
