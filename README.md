@@ -1,7 +1,7 @@
 # HPCC
 This includes tips in HPCC
 s -
-
+#########dO WE NEED TO BE CLEARER, THIEN?
 fin +expHPCC Basic
 1/ cd /mnt/home/lethien1/main/tutorial (set directory)
 Even faster: 
