@@ -1,0 +1,10 @@
+
+library(parallel)
+cl <- makeCluster(detectCores())
+#######Declare a global variable and make it understood by all core######
+clusterExport(cl,c("sto_generating_func","fr_distance"))
+
+clusterExport
+
+######After each run, need to clean the memory by 
+stopCluster()
