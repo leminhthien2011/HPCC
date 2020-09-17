@@ -122,7 +122,7 @@ find  -type f -name "*.R"
 find -name "*.R"
 find -name "*.R"
 
-20a. Find all types of file available in the current folder. find . -type f | perl -ne 'print $1 if m/.([^./]+)$/' | sort -u
+20a. Find all types of file available in the current folder. find . -type f | perl -ne 'print $1 if m/.([^.\/]+)$/' | sort -u
 
 21/ copy file   cp file1 file2
 
@@ -167,7 +167,3 @@ CTRL C for terminating R
 
 #######May be renumerate
  
- Find all types of file available in the current folder.
- find . -type f | perl -ne 'print $1 if m/\.([^.\/]+)$/' | sort -u
-
-
