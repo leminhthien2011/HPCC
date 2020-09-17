@@ -122,6 +122,8 @@ find  -type f -name "*.R"
 find -name "*.R"
 find -name "*.R"
 
+20a. Find all types of file available in the current folder. find . -type f | perl -ne 'print $1 if m/.([^./]+)$/' | sort -u
+
 21/ copy file   cp file1 file2
 
 22/ vim abc choose "tab" key then "tab"
