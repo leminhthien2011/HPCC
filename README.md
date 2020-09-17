@@ -122,7 +122,7 @@ find  -type f -name "*.R"
 find -name "*.R"
 find -name "*.R"
 
-20a. Find all types of file available in the current folder. find . -type f | perl -ne 'print $1 if m/.([^.\/]+)$/' | sort -u
+20a. Find all types of file available in the current folder. find . -type f | perl -ne 'print $1 if m/.([^.\/]+)$/' | sort -u  (notice the copied in git often loss the backwardslash before the forward slash at the end of the $forward slash sign)
 
 21/ copy file   cp file1 file2
 
