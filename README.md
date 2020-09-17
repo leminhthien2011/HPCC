@@ -159,8 +159,13 @@ scancel {1..10}
 [] (cancel jobs)
 scancel -u <username>
 CTRL C for terminating R
-
-7/ Rscript HpccTried
+ 
+ 7/ Rscript HpccTried
 .R 100 100 4(Check code)
 
 #######May be renumerate
+ 
+ Find all types of file available in the current folder.
+ find . -type f | perl -ne 'print $1 if m/\.([^.\/]+)$/' | sort -u
+
+
