@@ -57,4 +57,9 @@ bash file.sh
 ls-lrth
 
 
-15. 
+15. Check jon memory, core, runtime
+
+sacct -o reqmem,maxrss,averss,elapsed,alloccpus -j 3413279
+
+16.
+
