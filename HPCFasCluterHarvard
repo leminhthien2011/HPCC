@@ -1,0 +1,60 @@
+1. Work with an interactive node
+
+srun --pty -p test --mem 100 -t 0-01:00 /bin/bash
+
+
+2. Go to Home: 
+
+cd ~
+
+3. Scratch for a higer speed
+
+ cd /n/holyscratch01
+
+4. Create folder apps with subfolder R
+
+mkdir -pv ~/apps/R_version402
+
+5. Load corresponding R version
+
+module load R/4.0.2-fasrc01 (or only module load R for the default version)
+
+6. Install packages
+
+install.packages()
+
+7. Export library for using on the interactive node
+
+ export R_LIBS_USER=$HOME/apps/R_version402:$R_LIBS_USER
+
+8. Open R on HPC
+
+module load R
+R
+
+9. Check job status
+
+squeue
+
+10. Copy file 1 and make name as file2
+
+cp file1 file2
+
+11. Remove file
+
+rm file
+
+12. Find a file type
+
+find *.R (find all file with extension R)
+
+13. Submit a job 
+
+bash file.sh
+
+14. check the most current updated jobs
+
+ls-lrth
+
+
+15. 
