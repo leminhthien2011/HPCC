@@ -61,5 +61,14 @@ ls-lrth
 
 sacct -o reqmem,maxrss,averss,elapsed,alloccpus -j 3413279
 
-16.
+16. List all current jobs
 
+squeue -u tle
+
+17. List all running jobs
+
+squeue -u tle -t RUNNING
+
+18. List all pending jobs
+
+squeue -u tle -t PENDING
