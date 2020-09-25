@@ -82,4 +82,15 @@ squeue -u tle -t PENDING
 
 cat filename
 
-22. 
+22. Load R module 
+
+module load R/4.0.2-fasrc01 
+
+# BETTER Than module load R, will be default and not good when system update to a new module
+ 
+
+23. Show job Id in the text file
+
+scontrol show job ${SLURM_JOB_ID}
+
+24. 
