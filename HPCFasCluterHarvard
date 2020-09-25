@@ -91,6 +91,7 @@ module load R/4.0.2-fasrc01
 
 23. Show job Id in the text file
 
-scontrol show job ${SLURM_JOB_ID}
+#SBATCH --output=R-%x.%j.out
+#SBATCH --error=R-%x.%j.err
 
 24. 
