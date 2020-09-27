@@ -94,4 +94,12 @@ module load R/4.0.2-fasrc01
 #SBATCH --output=R-%x.%j.out
 #SBATCH --error=R-%x.%j.err
 
-24. 
+24. Check a copy file friendly with the unix environment or not by 
+
+file filename
+
+25. Convert a file to unix
+
+dos2unix filename
+
+
