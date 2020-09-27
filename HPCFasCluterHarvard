@@ -106,4 +106,17 @@ file filename
 
 dos2unix filename
 
+26. Delete lines unix:
+
+vim file
+
+then
+Delete lines 3-7
+:3,7d  enter
+
+Delete multiple lines continuously
+
+dd enter enter
+
+
 
