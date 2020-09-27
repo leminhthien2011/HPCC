@@ -7,6 +7,10 @@ srun --pty -p test --mem 100 -t 0-01:00 /bin/bash
 
 cd ~
 
+3. Home directory
+
+/n/home08/tle
+
 3. Scratch for a higer speed
 
  cd /n/holyscratch01/onnela_lab/ThienLe/
