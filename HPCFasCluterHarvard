@@ -118,5 +118,10 @@ Delete multiple lines continuously
 
 dd enter enter
 
+27. Execute a sh file
+
+chmod +x ABC1country-array3.sh
+
+
 
 
