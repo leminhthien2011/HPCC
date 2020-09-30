@@ -31,6 +31,11 @@ install.packages()
 
  export R_LIBS_USER=$HOME/apps/R_version402:$R_LIBS_USER
 
+8. Cancel a task
+
+CTR C
+
+8b. Highlight then Shift tab to make the same indent
 
 9. Check job status
 
@@ -39,6 +44,11 @@ squeue
 10. Copy file 1 and make name as file2
 
 cp file1 file2
+
+copy file from scratch to home folder
+
+cp filename ~
+
 
 11. Remove file
 
