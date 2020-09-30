@@ -31,10 +31,6 @@ install.packages()
 
  export R_LIBS_USER=$HOME/apps/R_version402:$R_LIBS_USER
 
-8. Open R on HPC
-
-module load R
-R
 
 9. Check job status
 
