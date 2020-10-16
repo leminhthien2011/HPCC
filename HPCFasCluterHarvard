@@ -128,6 +128,8 @@ dd enter enter
 
 chmod +x ABC1country-array3.sh
 
+28. Install package specified CRAN
 
+install.packages('RMySQL', repos='http://cran.us.r-project.org')
 
 
