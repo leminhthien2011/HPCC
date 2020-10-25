@@ -132,4 +132,11 @@ chmod +x ABC1country-array3.sh
 
 install.packages('RMySQL', repos='http://cran.us.r-project.org')
 
+29. Count number of files in the output
+
+ls -dq Travelestimateoutput_particles1000_pacc0.03* | wc -l
+
+
+30. 
+
 
