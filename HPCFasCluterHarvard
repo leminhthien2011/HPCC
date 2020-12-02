@@ -137,6 +137,7 @@ install.packages('RMySQL', repos='http://cran.us.r-project.org')
 ls -dq Travelestimateoutput_particles1000_pacc0.03* | wc -l
 
 
-30. 
+30. Count nuumber of jobs currently running
+squeue -u tle | wc -l
 
 
