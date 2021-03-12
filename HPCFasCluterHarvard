@@ -140,4 +140,10 @@ ls -dq Travelestimateoutput_particles1000_pacc0.03* | wc -l
 30. Count nuumber of jobs currently running
 squeue -u tle | wc -l
 
+31. Submit batch of job for loop by sequence from 1 to 10
+
+for i in $(seq 1 10)
+
+32. 
+
 
