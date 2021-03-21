@@ -144,6 +144,8 @@ squeue -u tle | wc -l
 
 for i in $(seq 1 10)
 
-32. 
+32.  Submit job as an array
+
+Rscript RealdataPoliciesComparision.R  ${SLURM_ARRAY_TASK_ID}
 
 
