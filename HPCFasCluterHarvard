@@ -148,4 +148,6 @@ for i in $(seq 1 10)
 
 Rscript RealdataPoliciesComparision.R  ${SLURM_ARRAY_TASK_ID}
 
+33. Install package specified
+install.packages("ape", repos="http://cran.r-project.org") 
 
