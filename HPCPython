@@ -4,13 +4,15 @@
  
  module load Anaconda3/5.0.1 fasrc 01
  
- Step 2- to check the existence of environment do: 
+ module load Anaconda3/2020.11  (Fasrc resource)
  
- conda env list  
- 
- Step 3- create an evironment by:
+ Step 2- create an evironment by:
  
  conda create --name mypythonenvironment
+ 
+ Step 3- to check the existence of environment do: 
+ 
+ conda env list  
  
  Step 4- Activate your environment by:
  
@@ -19,4 +21,20 @@
  Step 5- Install the package as normally on anaconda prompt by:
  
  conda install pandas
+ 
+ (conda remove pandas -- in case want to remove)
+ 
+ Step 6- Check the package was installed by
+ 
+ conda list
+ 
+ Step 7: Stop using the current environment by:
+ 
+ source deactivate
+ 
+ Step 8: Remove an environment by 
+ 
+ conda env remove -n <name>
+ 
+ 
  
