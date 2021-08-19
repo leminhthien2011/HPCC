@@ -1,0 +1,22 @@
+1. Create your own python environment to load packages wanted
+ 
+ Step 1- On your local cluster folder do: 
+ 
+ module load Anaconda3/5.0.1 fasrc 01
+ 
+ Step 2- to check the existence of environment do: 
+ 
+ conda env list  
+ 
+ Step 3- create an evironment by:
+ 
+ conda create --name mypythonenvironment
+ 
+ Step 4- Activate your environment by:
+ 
+ source activate mypythonenvironment
+ 
+ Step 5- Install the package as normally on anaconda prompt by:
+ 
+ conda install pandas
+ 
