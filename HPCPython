@@ -30,7 +30,7 @@
  
  Step 7: Stop using the current environment by:
  
- source deactivate
+ conda deactivate
  
  Step 8: Remove an environment by 
  
