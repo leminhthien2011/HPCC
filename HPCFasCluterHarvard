@@ -157,3 +157,9 @@ Rscript RealdataPoliciesComparision.R  ${SLURM_ARRAY_TASK_ID}
 33. Install package specified
 install.packages("ape", repos="http://cran.r-project.org") 
 
+#34.Cancel jobs
+
+scancel --user=tle # cancel all jobs
+
+scancel 1234 # cancel job 1234
+
