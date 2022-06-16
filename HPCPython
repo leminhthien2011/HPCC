@@ -22,6 +22,8 @@
  
  conda install pandas
  
+ Can also use  pip install pandas
+ 
  (conda remove pandas -- in case want to remove)
  
  Step 6- Check the package was installed by
