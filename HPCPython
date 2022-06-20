@@ -38,5 +38,23 @@
  
  conda env remove -n <name>
  
+ 2. Direct run python on cluster
+ ##No argument used
+  module load Anaconda3/2020.11
+  
+  python <filename.py> 
+  
+  ##Using two arguments
+  
+  source activate mypythonenvironment
+  
+  python <myfile.py> 100 200 
+  
+  3. Submitting code with automatic run
+  
+  
+  
+  
+  
  
  
